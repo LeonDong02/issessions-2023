@@ -1,6 +1,6 @@
 # Time Files
 
-For this task, we were given a corrupted .png file that had been sent through a time machine. To solve this task, we have to open the corrupted file in some hex editor to view the hex dump of flag.png. From there, immediately you can tell that the header is completely wrong as seen here
+For this task, we were given a corrupted .png file that had been sent through a time machine. To solve this task, we have to open the corrupted file in some hex editor to view the hex dump of flag.png. From there, immediately you can tell that the header is completely wrong as seen here (58 58 58 58 58 58 58 58):
 
 ![hexfiend screenshot of initial flag.png](https://github.com/LeonDong02/issessions-2023/blob/main/Time%20Files/incorrectheader.png)
 
