@@ -16,9 +16,6 @@ image.close()
 while len(temp):
     w.append(temp.pop())
 
-while temp:
-    w.append(temp.pop())
-
 image = open("fixed.png", "wb")
 for i in w:
     image.write(i)
